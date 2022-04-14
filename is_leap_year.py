@@ -10,7 +10,10 @@ def is_leap(year):
                 leap = True
             else:
                 leap = False
-        leap = True
+        else:
+            leap = True
+    else:
+        leap = False
     
     return leap
 
